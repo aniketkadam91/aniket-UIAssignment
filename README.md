@@ -18,6 +18,7 @@ The Rewards Points Tracker is a React-based web application designed to calculat
 
 - **Frontend:** React, CSS Modules
 - **Testing:** Vitest, @testing-library/react
+- **Backend:** Express.js
 
 ## Installation
 
