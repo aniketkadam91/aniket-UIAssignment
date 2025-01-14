@@ -1,0 +1,59 @@
+.customers {
+  display: flex;
+  list-style: none;
+  color: #fff;
+  text-align: left;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.customers > li {
+  width: 23%;
+  border: 1px solid aqua;
+  margin: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #424139;
+}
+
+.customers h2 {
+  text-align: left;
+  margin: 10px 0px;
+  color: aqua;
+}
+
+.monthlyRewards {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0px;
+}
+
+.monthlyRewards li {
+  color: aqua;
+}
+
+.aqua {
+  color: aqua;
+}
+
+.monthlyRewardsHeading {
+  margin: 5px 0px;
+}
+.bold {
+  font-weight: 700;
+}
+
+.error {
+  color: #fff;
+}
+
+.totalrewards {
+  margin: 10px 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  .customers > li {
+    width: 100%;
+  }
+}
