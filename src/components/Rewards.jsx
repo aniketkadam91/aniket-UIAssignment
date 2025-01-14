@@ -6,6 +6,8 @@ import classes from "./rewards.module.css";
 // Utility functions for business logic
 /**
  * Calculates reward points based on the transaction amount.
+ * @param {number} amount - The transaction amount.
+ * @returns {number} - The calculated reward points.
  */
 const calculateRewardsForTransaction = (amount) => {
   let rewards = 0;
@@ -42,7 +44,10 @@ const getLastThreeMonths = () => {
 
 /**
  * Calculates rewards for a set of transactions grouped by month.
+ * @param {Array} customers - Array of customer transaction data.
+ * @returns {Array} - Array of customers with calculated rewards.
  */
+
 const calculateRewards = (customers) => {
   const lastThreeMonths = getLastThreeMonths();
 

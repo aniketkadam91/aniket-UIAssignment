@@ -3,6 +3,13 @@ import "./App.css";
 import Rewards from "./components/Rewards";
 import Header from "./UI/Header";
 
+/**
+ * Main application component.
+ * Integrates the Header and Rewards components.
+ *
+ * @component
+ */
+
 function App() {
   const [count, setCount] = useState(0);
 

@@ -1,6 +1,15 @@
 import React, { memo } from "react";
 import classes from "./customers.module.css";
 
+/**
+ * Renders a list of customers with their monthly and total reward points.
+ *
+ * @component
+ * @param {Object} props - Component props.
+ * @param {Array} props.rewards - Array of customer rewards data.
+ * @returns {JSX.Element} - Rendered list of customers.
+ */
+
 const Customers = memo(({ rewards }) => {
   return (
     <ul className={classes.customers}>
