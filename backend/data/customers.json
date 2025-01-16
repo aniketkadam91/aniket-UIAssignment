@@ -130,5 +130,109 @@
       { "transactionId": 159, "amount": 134, "date": "2024-12-19" },
       { "transactionId": 160, "amount": 76, "date": "2025-01-06" }
     ]
+  },
+  {
+    "customerId": 13,
+    "customerName": "Sophia White",
+    "transactions": [
+      { "transactionId": 161, "amount": 210, "date": "2024-12-01" },
+      { "transactionId": 162, "amount": 140, "date": "2024-11-05" }
+    ]
+  },
+  {
+    "customerId": 14,
+    "customerName": "Lucas Green",
+    "transactions": [
+      { "transactionId": 163, "amount": 180, "date": "2024-11-15" },
+      { "transactionId": 164, "amount": 95, "date": "2024-12-08" }
+    ]
+  },
+  {
+    "customerId": 15,
+    "customerName": "Olivia Black",
+    "transactions": [
+      { "transactionId": 165, "amount": 125, "date": "2024-11-20" },
+      { "transactionId": 166, "amount": 85, "date": "2024-12-11" }
+    ]
+  },
+  {
+    "customerId": 16,
+    "customerName": "James Red",
+    "transactions": [
+      { "transactionId": 167, "amount": 150, "date": "2024-12-03" },
+      { "transactionId": 168, "amount": 200, "date": "2024-11-18" }
+    ]
+  },
+  {
+    "customerId": 17,
+    "customerName": "Emma Blue",
+    "transactions": [
+      { "transactionId": 169, "amount": 75, "date": "2024-11-10" },
+      { "transactionId": 170, "amount": 230, "date": "2024-12-14" }
+    ]
+  },
+  {
+    "customerId": 18,
+    "customerName": "Liam Yellow",
+    "transactions": [
+      { "transactionId": 171, "amount": 190, "date": "2024-12-04" },
+      { "transactionId": 172, "amount": 160, "date": "2024-11-22" }
+    ]
+  },
+  {
+    "customerId": 19,
+    "customerName": "Mia Brown",
+    "transactions": [
+      { "transactionId": 173, "amount": 110, "date": "2024-12-06" },
+      { "transactionId": 174, "amount": 135, "date": "2024-11-28" }
+    ]
+  },
+  {
+    "customerId": 20,
+    "customerName": "Noah White",
+    "transactions": [
+      { "transactionId": 175, "amount": 220, "date": "2024-11-25" },
+      { "transactionId": 176, "amount": 140, "date": "2024-12-01" }
+    ]
+  },
+  {
+    "customerId": 21,
+    "customerName": "Ava Green",
+    "transactions": [
+      { "transactionId": 177, "amount": 170, "date": "2024-12-05" },
+      { "transactionId": 178, "amount": 90, "date": "2024-11-12" }
+    ]
+  },
+  {
+    "customerId": 22,
+    "customerName": "Ethan Red",
+    "transactions": [
+      { "transactionId": 179, "amount": 145, "date": "2024-11-02" },
+      { "transactionId": 180, "amount": 230, "date": "2024-12-02" }
+    ]
+  },
+  {
+    "customerId": 23,
+    "customerName": "Isabella Blue",
+    "transactions": [
+      { "transactionId": 181, "amount": 160, "date": "2024-12-10" },
+      { "transactionId": 182, "amount": 210, "date": "2024-11-20" }
+    ]
+  },
+  {
+    "customerId": 24,
+    "customerName": "Mason Yellow",
+    "transactions": [
+      { "transactionId": 183, "amount": 100, "date": "2024-11-16" },
+      { "transactionId": 184, "amount": 130, "date": "2024-12-17" }
+    ]
+  },
+  {
+    "customerId": 25,
+    "customerName": "Charlotte Gray",
+    "transactions": [
+      { "transactionId": 185, "amount": 80, "date": "2024-11-30" },
+      { "transactionId": 186, "amount": 120, "date": "2024-12-05" }
+    ]
   }
 ]

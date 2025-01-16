@@ -9,7 +9,7 @@ import classes from "./rewards.module.css";
  * @param {number} amount - The transaction amount.
  * @returns {number} - The calculated reward points.
  */
-const calculateRewardsForTransaction = (amount) => {
+export const calculateRewardsForTransaction = (amount) => {
   let rewards = 0;
   if (amount > 100) {
     rewards += 2 * (amount - 100);
@@ -26,7 +26,7 @@ const calculateRewardsForTransaction = (amount) => {
  * @returns {string[]} - Array of the last three month names.
  */
 
-const getLastThreeMonths = () => {
+export const getLastThreeMonths = () => {
   const currentDate = new Date();
   const months = [];
 
@@ -48,7 +48,7 @@ const getLastThreeMonths = () => {
  * @returns {Array} - Array of customers with calculated rewards.
  */
 
-const calculateRewards = (customers) => {
+export const calculateRewards = (customers) => {
   const lastThreeMonths = getLastThreeMonths();
 
   return customers.map((customer) => {
